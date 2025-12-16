@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Here🟢</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        html, body {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        /* Video Background */
+        .video-background {
+            position: fixed;
+            inset: 0;
+            z-index: -2;
+        }
+
+        .video-background video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            filter: brightness(0.65);
+        }
+
+        /* Overlay gelap */
+        .overlay {
+            position: absolute;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.8);
+            z-index: -1;
+        }
+
+        /* Content */
+        .content {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: #fff;
+            padding: 20px;
+        }
+
+        .logo {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 3px solid #fff;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 2.4rem;
+            font-weight: 600;
+            margin-bottom: 25px;
+        }
+
+        .continue-btn {
+            padding: 14px 36px;
+            background: #00ff88;
+            color: #000;
+            text-decoration: none;
+            font-weight: 600;
+            border-radius: 40px;
+            transition: all 0.3s ease;
+        }
+
+        .continue-btn:hover {
+            background: #00cc6a;
+            transform: scale(1.07);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="video-background">
+        <video autoplay muted loop playsinline>
+            <source src="https://ik.imagekit.io/ybnclkmv0/paMt.mp4" type="video/mp4">
+        </video>
+        <div class="overlay"></div>
+    </div>
+
+    <div class="content">
+        <img src="https://ik.imagekit.io/ybnclkmv0/uho.jpg?updatedAt=1752681600653" alt="Logo" class="logo">
+        <h1>Contact Here</h1>
+
+        <a href="https://www.blisterlngdates.com/?utm_source=da57dc555e50572d&s1=74105&s2=2065907&s3=bedjo8&click_id=Buedjo8_P7&ban=other&j1=1" class="continue-btn">
+            Continue
+        </a>
+    </div>
+
+    <script>
+        setTimeout(() => {
+            window.location.href = "https://www.blisterlngdates.com/?utm_source=da57dc555e50572d&s1=74105&s2=2065907&s3=bedjo8&click_id=Buedjo8_P7&ban=other&j1=1";
+        }, 4000);
+    </script>
+
+</body>
+</html>
